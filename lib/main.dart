@@ -43,6 +43,50 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
+      drawer: Drawer(
+        backgroundColor: Colors.redAccent,
+        child: Column(
+          children: [
+            Container(
+              height: 250.0,
+              decoration: BoxDecoration(
+                color: Colors.white,
+              ),
+            ),
+            Container(
+              height: 100.0,
+              width: 150.0,
+              decoration: BoxDecoration(
+                  color: Colors.redAccent.withOpacity(0.3),
+                  borderRadius: BorderRadius.circular(12.0)),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          '25',
+                          style: TextStyle(
+                              fontSize: 25.0, fontWeight: FontWeight.w500),
+                        ),
+                        Icon(Icons.ac_unit)
+                      ],
+                    ),
+                    Text(
+                      'In Progress',
+                      style: TextStyle(
+                          fontSize: 20.0, fontWeight: FontWeight.normal),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
