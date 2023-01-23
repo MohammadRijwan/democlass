@@ -87,10 +87,460 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      body: Center(
+      body: SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            const Text(
+              'You have pushed the button this many times:',
+            ),
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.headline4,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                ElevatedButton(
+                    onPressed: () {
+                      _incrementCounter();
+                    },
+                    child: Text('Increment')),
+                ElevatedButton(
+                    onPressed: () {
+                      _decrementCounter();
+                    },
+                    child: Text('Decrement'))
+              ],
+            ),
+            SizedBox(height: 20.0),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Container(
+                  height: 100.0,
+                  width: 150.0,
+                  decoration: BoxDecoration(
+                      color: Colors.redAccent.withOpacity(0.3),
+                      borderRadius: BorderRadius.circular(12.0)),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              '25',
+                              style: TextStyle(
+                                  fontSize: 25.0, fontWeight: FontWeight.w500),
+                            ),
+                            Icon(Icons.ac_unit)
+                          ],
+                        ),
+                        Text(
+                          'In Progress',
+                          style: TextStyle(
+                              fontSize: 20.0, fontWeight: FontWeight.normal),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Container(
+                  height: 100.0,
+                  width: 150.0,
+                  decoration: BoxDecoration(
+                      color: Colors.redAccent.withOpacity(0.3),
+                      borderRadius: BorderRadius.circular(12.0)),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              '25',
+                              style: TextStyle(
+                                  fontSize: 25.0, fontWeight: FontWeight.w500),
+                            ),
+                            Icon(Icons.ac_unit)
+                          ],
+                        ),
+                        Text(
+                          'In Progress',
+                          style: TextStyle(
+                              fontSize: 20.0, fontWeight: FontWeight.normal),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            const Text(
+              'You have pushed the button this many times:',
+            ),
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.headline4,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                ElevatedButton(
+                    onPressed: () {
+                      _incrementCounter();
+                    },
+                    child: Text('Increment')),
+                ElevatedButton(
+                    onPressed: () {
+                      _decrementCounter();
+                    },
+                    child: Text('Decrement'))
+              ],
+            ),
+            SizedBox(height: 20.0),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Container(
+                  height: 100.0,
+                  width: 150.0,
+                  decoration: BoxDecoration(
+                      color: Colors.redAccent.withOpacity(0.3),
+                      borderRadius: BorderRadius.circular(12.0)),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              '25',
+                              style: TextStyle(
+                                  fontSize: 25.0, fontWeight: FontWeight.w500),
+                            ),
+                            Icon(Icons.ac_unit)
+                          ],
+                        ),
+                        Text(
+                          'In Progress',
+                          style: TextStyle(
+                              fontSize: 20.0, fontWeight: FontWeight.normal),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Container(
+                  height: 100.0,
+                  width: 150.0,
+                  decoration: BoxDecoration(
+                      color: Colors.redAccent.withOpacity(0.3),
+                      borderRadius: BorderRadius.circular(12.0)),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              '25',
+                              style: TextStyle(
+                                  fontSize: 25.0, fontWeight: FontWeight.w500),
+                            ),
+                            Icon(Icons.ac_unit)
+                          ],
+                        ),
+                        Text(
+                          'In Progress',
+                          style: TextStyle(
+                              fontSize: 20.0, fontWeight: FontWeight.normal),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            const Text(
+              'You have pushed the button this many times:',
+            ),
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.headline4,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                ElevatedButton(
+                    onPressed: () {
+                      _incrementCounter();
+                    },
+                    child: Text('Increment')),
+                ElevatedButton(
+                    onPressed: () {
+                      _decrementCounter();
+                    },
+                    child: Text('Decrement'))
+              ],
+            ),
+            SizedBox(height: 20.0),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Container(
+                  height: 100.0,
+                  width: 150.0,
+                  decoration: BoxDecoration(
+                      color: Colors.redAccent.withOpacity(0.3),
+                      borderRadius: BorderRadius.circular(12.0)),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              '25',
+                              style: TextStyle(
+                                  fontSize: 25.0, fontWeight: FontWeight.w500),
+                            ),
+                            Icon(Icons.ac_unit)
+                          ],
+                        ),
+                        Text(
+                          'In Progress',
+                          style: TextStyle(
+                              fontSize: 20.0, fontWeight: FontWeight.normal),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Container(
+                  height: 100.0,
+                  width: 150.0,
+                  decoration: BoxDecoration(
+                      color: Colors.redAccent.withOpacity(0.3),
+                      borderRadius: BorderRadius.circular(12.0)),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              '25',
+                              style: TextStyle(
+                                  fontSize: 25.0, fontWeight: FontWeight.w500),
+                            ),
+                            Icon(Icons.ac_unit)
+                          ],
+                        ),
+                        Text(
+                          'In Progress',
+                          style: TextStyle(
+                              fontSize: 20.0, fontWeight: FontWeight.normal),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            const Text(
+              'You have pushed the button this many times:',
+            ),
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.headline4,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                ElevatedButton(
+                    onPressed: () {
+                      _incrementCounter();
+                    },
+                    child: Text('Increment')),
+                ElevatedButton(
+                    onPressed: () {
+                      _decrementCounter();
+                    },
+                    child: Text('Decrement'))
+              ],
+            ),
+            SizedBox(height: 20.0),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Container(
+                  height: 100.0,
+                  width: 150.0,
+                  decoration: BoxDecoration(
+                      color: Colors.redAccent.withOpacity(0.3),
+                      borderRadius: BorderRadius.circular(12.0)),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              '25',
+                              style: TextStyle(
+                                  fontSize: 25.0, fontWeight: FontWeight.w500),
+                            ),
+                            Icon(Icons.ac_unit)
+                          ],
+                        ),
+                        Text(
+                          'In Progress',
+                          style: TextStyle(
+                              fontSize: 20.0, fontWeight: FontWeight.normal),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Container(
+                  height: 100.0,
+                  width: 150.0,
+                  decoration: BoxDecoration(
+                      color: Colors.redAccent.withOpacity(0.3),
+                      borderRadius: BorderRadius.circular(12.0)),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              '25',
+                              style: TextStyle(
+                                  fontSize: 25.0, fontWeight: FontWeight.w500),
+                            ),
+                            Icon(Icons.ac_unit)
+                          ],
+                        ),
+                        Text(
+                          'In Progress',
+                          style: TextStyle(
+                              fontSize: 20.0, fontWeight: FontWeight.normal),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            const Text(
+              'You have pushed the button this many times:',
+            ),
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.headline4,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                ElevatedButton(
+                    onPressed: () {
+                      _incrementCounter();
+                    },
+                    child: Text('Increment')),
+                ElevatedButton(
+                    onPressed: () {
+                      _decrementCounter();
+                    },
+                    child: Text('Decrement'))
+              ],
+            ),
+            SizedBox(height: 20.0),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Container(
+                  height: 100.0,
+                  width: 150.0,
+                  decoration: BoxDecoration(
+                      color: Colors.redAccent.withOpacity(0.3),
+                      borderRadius: BorderRadius.circular(12.0)),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              '25',
+                              style: TextStyle(
+                                  fontSize: 25.0, fontWeight: FontWeight.w500),
+                            ),
+                            Icon(Icons.ac_unit)
+                          ],
+                        ),
+                        Text(
+                          'In Progress',
+                          style: TextStyle(
+                              fontSize: 20.0, fontWeight: FontWeight.normal),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Container(
+                  height: 100.0,
+                  width: 150.0,
+                  decoration: BoxDecoration(
+                      color: Colors.redAccent.withOpacity(0.3),
+                      borderRadius: BorderRadius.circular(12.0)),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              '25',
+                              style: TextStyle(
+                                  fontSize: 25.0, fontWeight: FontWeight.w500),
+                            ),
+                            Icon(Icons.ac_unit)
+                          ],
+                        ),
+                        Text(
+                          'In Progress',
+                          style: TextStyle(
+                              fontSize: 20.0, fontWeight: FontWeight.normal),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
+            ),
             const Text(
               'You have pushed the button this many times:',
             ),
